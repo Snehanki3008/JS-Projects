@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Race Countdown</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #3498db; /* Change the background color */
+            font-family: Arial, sans-serif; /* Change the font family */
+        }
+
+        #countdown {
+            font-size: 48px; /* Increase font size */
+            color: #fff; /* Change text color to white */
+        }
+
+        #go {
+            font-size: 60px; /* Increase font size */
+            display: none;
+            animation: fadein 1s 4s forwards;
+            color: #2ecc71; /* Change text color to green */
+        }
+
+        #replay {
+            display: none;
+            margin-top: 20px;
+            background-color: #e74c3c; /* Change button background color */
+            color: #fff; /* Change button text color to white */
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        @keyframes fadein {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="countdown">5</div>
+    <div id="go">Go!</div>
+    <button id="replay" onclick="startCountdown()">Replay</button>
+
+    <script>
+        let countdown = 5;
+        const countdownElement = document.getElementById('countdown');
+        const goElement = document.getElementById('go');
+        const replayButton = document.getElementById('replay');
+
+        function startCountdown() {
+            countdown = 5;
+            countdownElement.textContent = countdown;
+            goElement.style.display = 'none';
+            replayButton.style.display = 'none';
+
+            const countdownInterval = setInterval(function() {
+                countdown--;
+                countdownElement.textContent = countdown;
+
+                if (countdown === 0) {
+                    clearInterval(countdownInterval);
+                    goElement.style.display = 'block';
+
+                    setTimeout(function() {
+                        replayButton.style.display = 'block';
+                    }, 1000);
+                }
+            }, 1000);
+        }
+
+        startCountdown();
+    </script>
+</body>
+</html>
