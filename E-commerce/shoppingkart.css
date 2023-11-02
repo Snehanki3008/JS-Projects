@@ -1,0 +1,580 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'DM Sans';
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+}
+
+.header {
+
+    background-color: rgb(29, 29, 29);
+    color: #fff;
+
+}
+#searchbtn
+{
+    cursor: pointer;
+}
+#searchbtn:hover
+{
+    background-color: #fff;
+    color:#000;
+}
+/* .list li a:hover
+{
+    background-color: #fff;
+    color:#000 !important;
+} */
+.header .header-container {
+    width: 90%;
+    display: flex;
+    margin: 0px auto;
+    align-items: center;
+    height: 50px;
+}
+
+.header .welcome {
+    color: #fff;
+}
+
+.header .menu {
+    margin-left: 100px;
+    display: flex;
+}
+
+.header .menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.header .menu ul li {
+    list-style-type: none;
+    color: #fff;
+
+}
+
+.header .menu ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+.header .menu ul li a:hover
+{
+    background-color: #fff;
+    color:#000 !important;
+}
+
+.header .menu ol {
+    display: flex;
+    margin-left: 100px;
+}
+
+.header .menu ol li {
+    list-style-type: none;
+    color: #fff;
+    padding: 0px 10px 0px 10px;
+
+}
+
+.header .menu ol li a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+
+}
+/* Sub header starts */
+.subheader{
+    background-color: rgb(218, 218, 9);
+
+}
+.subheader .subheader-container{
+    width: 90%;
+    display: flex;
+    margin: 0px auto;
+    align-items: center;
+    height: 70px;
+}
+.subheader .logo{
+    width: 20%;
+}
+.subheader .logo h3{
+    font-size: 24px;
+    text-align: right;
+}
+.subheader .logo p{
+    font-size: 14px;
+    text-align: right;
+}
+.subheader-container .search-bar{
+    width: 40%;
+    margin-left: 100px;
+
+}
+.subheader-container .search-bar input{
+    width: 70%;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 0px;
+
+}
+.subheader-container .search-bar button{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    width: 20%;
+
+}
+.subheader-container .headphone{
+    width: 5%;
+    font-size: 40px;
+}
+.subheader .call-us{
+    width: 20%;
+    margin-left: 20px;
+}
+.subheader .call-us h3{
+    font-size: 20px;
+    text-align: left;
+}
+.subheader .call-us p{
+    font-size: 14px;
+    text-align: left;
+    font-weight: bold;
+}
+.subheader .icon ul {
+    display: flex;
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+.subheader .icon ul li {
+    list-style-type: none;
+    color: #fff;
+    padding: 0px 5px 0px 5px;
+
+}
+
+.subheader .icon ul li a {
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+
+}
+/* 3rd Sub header */
+.subhead .menu-2{
+    background-color: lightgray;
+    display: flex;
+    font-family: 'DM Sans';
+}
+.subhead .menu-2 ul {
+    display: flex;
+    margin-left: 100px;
+    font-size: 18px;
+    
+    
+}
+
+.subhead .menu-2 ul li {
+    list-style-type: none;
+   
+    
+    padding:10px;
+    
+    
+
+}
+
+.subhead .menu-2 ul li a {
+     color: #000;
+    text-decoration: none;
+    display: block;
+    height:100%;
+ 
+}
+
+.subhead .menu-2 ul li:hover {
+    
+    background-color: rgb(218, 218, 9);
+    
+   
+
+}
+.subhead-2{
+    height: 400px;
+    background-color: rgb(229, 46, 183);
+}
+.subhead-2 .women-fashion{
+    padding: 120px;
+    font-family: 'DM Sans';
+    font-size: x-large;
+    background-image: url(https://media.istockphoto.com/id/1249219777/photo/shopping-online-concept-parcel-or-paper-cartons-with-a-shopping-cart-logo-in-a-trolley-on-a.webp?b=1&s=170667a&w=0&k=20&c=Q73ir-wB0u0cUX1Ho6OABXrQEBoD9b8FFV4Bn_DsEB8=);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.subhead-2 .women-fashion h5{
+    font-size: 14px;
+    font-style: italic;
+}
+.subhead-2 .women-fashion button
+{
+    margin-top:10px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: black;
+    padding: 10px 30px 10px 30px;
+    color:#fff;
+    border: 0px;
+}
+/* Shipping details start here */
+.subhead-3{
+    background-color: beige;
+   
+    
+   
+}
+.subhead-3 .subhead-3-container{
+    width: 90%;
+    height: 90px;
+    display: flex;
+    padding: 15px;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+.subhead-3 .free-shipping{
+    padding: 20px;
+    width:30%;
+    margin:0px 10px 0px 10px;
+    display: flex;
+    border: 1px solid grey;
+    
+    
+}
+.subhead-3 .free-shipping i
+{
+    font-size: 35px;
+    padding: 5px 20px 0px 0px;
+}
+.subhead-3 .money-back{
+    padding: 20px;
+    width:30%;
+    margin:0px 10px 0px 10px;
+    display: flex;
+    border: 1px solid grey;
+    
+}
+.subhead-3 .money-back i
+{
+    font-size: 35px;
+    padding: 5px 20px 0px 0px;
+}
+.subhead-3 .online-support{
+    padding: 20px;
+    width:30%;
+    margin:0px 10px 0px 10px;
+    display: flex;
+    border: 1px solid grey;
+    
+}
+.subhead-3 .online-support i
+{
+    font-size: 35px;
+    padding: 5px 20px 0px 0px;
+}
+
+
+
+/* womens wear */
+.subhead-4{
+   
+    background-color: white;
+    
+}
+.subhead-4 .subhead-4-container {
+    width: 90%;
+    height: auto;
+    display: flex;
+    padding: 15px;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+.subhead-4 .mens-wear{
+    background-color: aqua;
+    display: flex;
+    width:30%;
+}
+.subhead-4 .mens-wear-img{
+    display: flex;
+    height: 100;
+}
+.subhead-4 .mens-wear img{
+    width:140px;
+    margin-top: auto;   
+}
+.subhead-4 .mens-wear .mens-wear-right{
+    padding:40px;
+    margin-right: 5px;
+}
+.subhead-4 .mens-wear .mens-wear-right h3{
+    font-size:24px;
+}
+.subhead-4 .mens-wear .mens-wear-right h5{
+    color:rgb(76, 76, 76);
+}
+.subhead-4 .mens-wear .mens-wear-right button
+{
+    margin-top: 10px;
+    background-color: transparent;
+    border: 1px solid grey;
+    padding: 5px 10px 5px 10px;
+}
+
+.subhead-4 .womens-wear{
+    background-color: pink;
+    display: flex;
+    width:30%;
+}
+.subhead-4 .womens-wear-img{
+    display: flex;
+}
+.subhead-4 .womens-wear img{
+    width:140px;
+    margin-top: auto;   
+}
+.subhead-4 .womens-wear .womens-wear-right{
+    padding:40px 10px 40px 10px;
+    margin-right:0px;
+}
+.subhead-4 .womens-wear .womens-wear-right h3{
+    font-size:24px;
+}
+.subhead-4 .womens-wear .womens-wear-right h5{
+    color:rgb(76, 76, 76);
+}
+.subhead-4 .womens-wear .womens-wear-right button
+{
+    margin-top: 10px;
+    background-color: transparent;
+    border: 1px solid grey;
+    padding: 5px 10px 5px 10px;
+}
+
+
+
+.subhead-4 .kids-wear{
+    background-color: rgb(192, 248, 81);
+    display: flex;
+    width:30%;
+}
+.subhead-4 .kids-wear-img{
+    display: flex;
+    
+}
+.subhead-4 .kids-wear img{
+    width:140px;
+    margin-top: auto;   
+}
+.subhead-4 .kids-wear .kids-wear-right{
+    padding:40px;
+    margin-right: 20px;
+}
+.subhead-4 .kids-wear .kids-wear-right h3{
+    font-size:24px;
+}
+.subhead-4 .kids-wear .kids-wear-right h5{
+    color:rgb(76, 76, 76);
+}
+.subhead-4 .kids-wear .kids-wear-right button
+{
+    margin-top: 10px;
+    background-color: transparent;
+    border: 1px solid grey;
+    padding: 5px 10px 5px 10px;
+}
+
+/* products starts here */
+.scontainer {
+    width: 90%; /* Set the width of the container to 90% */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  .product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(23%, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .product-card {
+    border: 1px solid #ccc;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-image {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .product-image img {
+    width: 100%;
+    height: 200px;
+  }
+  
+  .hover-actions {
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    transform: translateY(100%);
+    transition: transform 0.2s;
+    
+    padding: 5px;
+    align-items: center;
+  }
+  
+  .product-card:hover .hover-actions {
+    transform: translateY(0);
+  }
+  
+  .quick-view  {
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  
+  
+  .product-details {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .brand-with-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .brand {
+    font-size: 12px;
+    color: grey;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .title {
+    font-size: 16px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .ratings {
+    font-size: 20px;
+    /* Use your rating icon styling here */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .price {
+    font-size: 18px;
+    margin: 0;
+    color:grey;
+    padding: 0;
+    text-decoration: line-through;
+  }
+  .disprice {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    color:#000;
+    
+  }
+  
+  .wishlist-icon {
+    cursor: pointer;
+    color: #FF5733; /* Color of heart icon */
+    font-size: 20px;
+  }
+  .btnb
+  {
+    padding:5px;
+    margin-top:5px;
+    cursor:pointer;
+    background-color: #DADA09;
+    color:#000;
+    border: 0px solid #000;
+  }
+  
+
+  /* PRODUCT PAGE STARTS*/
+  .product-containers {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    margin: 10px;
+    width: 95%; /* Ensure the container spans the full width */
+}
+
+.product-image1 {
+    max-width: 50%;
+    height: auto;
+}
+
+.product-details {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.product-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product-price {
+    font-size: 16px;
+    text-decoration: line-through;
+}
+
+.product-special-price {
+    font-size: 24px;
+    color: red;
+}
+
+.product-rating {
+    font-size: 18px;
+}
+
+.product-category {
+    font-size: 16px;
+}
+
+.product-brand {
+    font-size: 16px;
+}
+
+.product-description {
+    font-size: 14px;
+}
+
+.add-to-cart-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
