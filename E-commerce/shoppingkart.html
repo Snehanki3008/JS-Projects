@@ -18,6 +18,9 @@
                 <div class="welcome">
                     <p>Welcome to Shopingo Store</p>
                 </div>
+                &nbsp;
+                
+                <div id="otpless-login-page">
                 <div class="menu">
                     <ul class="top-menu">
                         <!-- <li ><a href="#" onmouseover="hover1(this)" onmouseout="hover2(this)">Track Order</a></li> -->
@@ -190,7 +193,22 @@
            
 
     </div>
-   <script src="shoppingkart.js"></script>
+    <script type="text/javascript" src="https://otpless.com/auth.js" cid="4HHPQE75TH80YYBN3ABLRUGP4SLF8FQG"></script>
+    <script type="text/javascript"> 
+       
+            function otpless(otplessUser) {
+                // console.log(JSON.stringify(otplessUser));
+                var username = otplessUser.waName;
+                    var usernumber = otplessUser.waNumber;
+                    // Signup/signin the user and redirect to next page
+        
+                    document.getElementById('otpless').innerHTML = `
+                    <h2> Hi ${username} Welcomec ! </h2>`
+                }
+        
+        
+       </script>
+    <script src="shoppingkart.js"></script>
 </body>
 
 </html>
